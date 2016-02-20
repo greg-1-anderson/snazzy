@@ -4,11 +4,11 @@
   "description": "A Snazzy Module",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "http://drupal.org/project/snazzy",
+  "homepage": "https://github.com/greg-1-anderson/snazzy",
   "minimum-stability": "dev",
   "support": {
-    "issues": "http://drupal.org/project/issues/snazzy",
-    "source": "http://cgit.drupalcode.org/snazzy"
+    "issues": "https://github.com/greg-1-anderson/snazzy/issues",
+    "source": "https://github.com/greg-1-anderson/snazzy"
   },
   "require": { }
 }
