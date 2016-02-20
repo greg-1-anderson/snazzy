@@ -1,0 +1,8 @@
+
+snazzy.snazzy_controller_snazzy:
+  path: '/snazzy/list/{param}'
+  defaults:
+    _controller: '\Drupal\snazzy\Controller\SnazzyController::snazzy'
+    _title: 'Snazzy'
+  requirements:
+    _permission: 'access content'

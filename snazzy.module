@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Contains snazzy.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function snazzy_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the snazzy module.
+    case 'help.page.snazzy':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A Snazzy Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function snazzy_theme() {
+  $theme = [];
+
+  return $theme;
+}
